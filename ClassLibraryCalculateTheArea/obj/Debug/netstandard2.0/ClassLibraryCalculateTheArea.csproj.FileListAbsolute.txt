@@ -1,0 +1,9 @@
+C:\Users\L\source\repos\SolutionCalculateTheArea\ClassLibraryCalculateTheArea\bin\Debug\netstandard2.0\ClassLibraryCalculateTheArea.deps.json
+C:\Users\L\source\repos\SolutionCalculateTheArea\ClassLibraryCalculateTheArea\bin\Debug\netstandard2.0\ClassLibraryCalculateTheArea.dll
+C:\Users\L\source\repos\SolutionCalculateTheArea\ClassLibraryCalculateTheArea\bin\Debug\netstandard2.0\ClassLibraryCalculateTheArea.pdb
+C:\Users\L\source\repos\SolutionCalculateTheArea\ClassLibraryCalculateTheArea\obj\Debug\netstandard2.0\ClassLibraryCalculateTheArea.csprojAssemblyReference.cache
+C:\Users\L\source\repos\SolutionCalculateTheArea\ClassLibraryCalculateTheArea\obj\Debug\netstandard2.0\ClassLibraryCalculateTheArea.csproj.CoreCompileInputs.cache
+C:\Users\L\source\repos\SolutionCalculateTheArea\ClassLibraryCalculateTheArea\obj\Debug\netstandard2.0\ClassLibraryCalculateTheArea.AssemblyInfoInputs.cache
+C:\Users\L\source\repos\SolutionCalculateTheArea\ClassLibraryCalculateTheArea\obj\Debug\netstandard2.0\ClassLibraryCalculateTheArea.AssemblyInfo.cs
+C:\Users\L\source\repos\SolutionCalculateTheArea\ClassLibraryCalculateTheArea\obj\Debug\netstandard2.0\ClassLibraryCalculateTheArea.dll
+C:\Users\L\source\repos\SolutionCalculateTheArea\ClassLibraryCalculateTheArea\obj\Debug\netstandard2.0\ClassLibraryCalculateTheArea.pdb

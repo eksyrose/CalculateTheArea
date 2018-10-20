@@ -1,0 +1,17 @@
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\obj\Debug\netcoreapp2.0\CalculateLibraryTest.csprojAssemblyReference.cache
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\obj\Debug\netcoreapp2.0\CalculateLibraryTest.csproj.CoreCompileInputs.cache
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\obj\Debug\netcoreapp2.0\CalculateLibraryTest.AssemblyInfoInputs.cache
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\obj\Debug\netcoreapp2.0\CalculateLibraryTest.AssemblyInfo.cs
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\bin\Debug\netcoreapp2.0\CalculateLibraryTest.deps.json
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\bin\Debug\netcoreapp2.0\CalculateLibraryTest.runtimeconfig.json
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\bin\Debug\netcoreapp2.0\CalculateLibraryTest.runtimeconfig.dev.json
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\bin\Debug\netcoreapp2.0\CalculateLibraryTest.dll
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\bin\Debug\netcoreapp2.0\CalculateLibraryTest.pdb
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\bin\Debug\netcoreapp2.0\ClassLibraryCalculateTheArea.dll
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\bin\Debug\netcoreapp2.0\ClassLibraryCalculateTheArea.pdb
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\obj\Debug\netcoreapp2.0\CalculateLibraryTest.csproj.CopyComplete
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\obj\Debug\netcoreapp2.0\CalculateLibraryTest.dll
+C:\Users\L\source\repos\SolutionCalculateTheArea\CalculateLibraryTest\obj\Debug\netcoreapp2.0\CalculateLibraryTest.pdb
