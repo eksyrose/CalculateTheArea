@@ -15,7 +15,8 @@ namespace CalculateLibraryTest
             double[] areas = new double[] { 12.5663706144, 28.2743338823, 50.2654824574 };
             for (int i = 0; i < radiuses.Length; i++)
             {
-                double result = General.CalcTheArea(radiuses[i]);
+                Circle a = new Circle(radiuses[i]);
+                double result = a.CalculateTheArea();
                 Assert.AreEqual(result, areas[i], 0.000001, String.Format("Expected for '{0}'; Actual: {1}",
                                      result, areas[i]));
             }
@@ -28,14 +29,11 @@ namespace CalculateLibraryTest
             double[] areas = new double[] { 9.921567416, 6.0, 14.69693845 };
             for (int i = 0; i < 3; i++)
             {
-                double result = General.CalcTheArea(values[i, 0], values[i, 1], values[i, 2]);
+                Rectangle a = new Rectangle(values[i, 0], values[i, 1], values[i, 2]);
+                double result = a.CalculateTheArea();
                 Assert.AreEqual(result, areas[i], 0.000001, String.Format("Expected for {0}; Actual: {1}",
                                      areas[i], result));
             }
         }
-
-        //....test for null
-
-        //.... add wrong data
     }
 }
