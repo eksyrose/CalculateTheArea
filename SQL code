@@ -1,6 +1,7 @@
-
 SELECT [product_name], [categoria]
-  FROM [dbo].[products] LEFT JOIN [dbo].[categories] ON [dbo].[products].product_categoria = [dbo].[categories].categoria
+  FROM [dbo].[products] 
+  LEFT JOIN [dbo].[productscategories] ON [dbo].[productscategories].productID = [dbo].[products].productID
+  LEFT JOIN [dbo].[categories] ON [dbo].[productscategories].categoriaID = [dbo].[categories].categoriaID
 
 // результат
 
@@ -12,48 +13,50 @@ Water	NULL
 // создание и заполнение таблиц
 
 CREATE TABLE dbo.categories (
-categoria VARCHAR(30) NOT NULL,
-PRIMARY KEY (categoria)); 
+[categoriaID] int NOT NULL IDENTITY(1, 1) PRIMARY KEY,
+[categoria] VARCHAR(30) NOT NULL,
+); 
 
 INSERT INTO [dbo].[categories]
            ([categoria])
-     VALUES
-           ('Fruit')
+     VALUES ('Fruit')
            
 INSERT INTO [dbo].[categories]
            ([categoria])
-     VALUES
-           ('High_carbs')
+     VALUES ('High_carbs')
            
 INSERT INTO [dbo].[categories]
            ([categoria])
-     VALUES
-           ('Vegetable')
+     VALUES ('Vegetable')
            
 CREATE TABLE dbo.products (
-[id] int NOT NULL IDENTITY(1, 1) PRIMARY KEY,
-product_name VARCHAR(30) NOT NULL,
-product_categoria VARCHAR(30) NULL REFERENCES dbo.categories(categoria)
+[productID] int NOT NULL IDENTITY(1, 1) PRIMARY KEY,
+[product_name] VARCHAR(30) NOT NULL
 ); 
 
 INSERT INTO [dbo].[products]
-           ([product_name]
-           ,[product_categoria])
+           ([product_name])
      VALUES
-           ('Banana',
-           'Fruit')
+           ('Banana')
            
 INSERT INTO [dbo].[products]
-           ([product_name]
-           ,[product_categoria])
+           ([product_name])
      VALUES
-           ('Banana',
-           'High_carbs')
+           ('Water')
+
+CREATE TABLE dbo.productscategories (
+[pkID] int NOT NULL IDENTITY(1, 1) PRIMARY KEY,
+[productID] int NOT NULL FOREIGN KEY REFERENCES [dbo].[products](productID),
+[categoriaID] int NOT NULL FOREIGN KEY REFERENCES [dbo].[categories](categoriaID)
+); 
+
+INSERT INTO [dbo].[productscategories]
+           ([productID], [categoriaID])
+     VALUES ((SELECT [productID] FROM [dbo].[products] WHERE [product_name] = 'Banana'), 
+	 (SELECT [categoriaID] FROM [dbo].[categories] WHERE [categoria] = 'Fruit'))
            
-INSERT INTO [dbo].[products]
-           ([product_name]
-           ,[product_categoria])
-     VALUES
-           ('Water',
-           NULL)
+INSERT INTO [dbo].[productscategories]
+           ([productID], [categoriaID])
+     VALUES ((SELECT [productID] FROM [dbo].[products] WHERE [product_name] = 'Banana'), 
+	 (SELECT [categoriaID] FROM [dbo].[categories] WHERE [categoria] = 'High_carbs'))
            
