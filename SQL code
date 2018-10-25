@@ -1,3 +1,4 @@
+
 SELECT [product_name], [categoria]
   FROM [dbo].[products] 
   LEFT JOIN [dbo].[productscategories] ON [dbo].[productscategories].productID = [dbo].[products].productID
